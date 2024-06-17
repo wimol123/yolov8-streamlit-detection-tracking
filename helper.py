@@ -17,7 +17,8 @@ def load_model(model_path):
     Returns:
         A YOLO object detection model.
     """
-    model = YOLO(model_path)
+    model = torch.hub.load('ultralytics/yolov8', 'custom', path=model_path, force_reload=True)
+    # model = YOLO(model_path)
     return model
 
 
