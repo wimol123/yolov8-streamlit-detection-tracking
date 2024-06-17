@@ -2,6 +2,7 @@ from ultralytics import YOLO
 import time
 import streamlit as st
 import cv2
+import torch
 from pytube import YouTube
 
 import settings
