@@ -35,7 +35,7 @@ VIDEOS_DICT = {
 
 # ML Model config
 MODEL_DIR = ROOT / 'model'
-DETECTION_MODEL = MODEL_DIR / 'mymodelyolo.pt'
+# DETECTION_MODEL = MODEL_DIR / 'mymodelyolo.pt'
 # In case of your custome model comment out the line above and
 # Place your custom model pt file name at the line below 
 # DETECTION_MODEL = MODEL_DIR / 'my_detection_model.pt'
